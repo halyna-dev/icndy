@@ -1,0 +1,16 @@
+.header__arrow  {
+/*    position: relative;*/
+    line-height: 18vh;
+    text-align: center;
+    vertical-align: middle;
+/*    top: 10vw;*/
+}
+
+.header__arrow-link  {
+    height: auto;
+    width: auto;
+}
+.header__arrow-link img  {
+    height: 3vw;
+    width: auto;
+}

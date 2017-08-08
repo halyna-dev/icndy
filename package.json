@@ -1,0 +1,26 @@
+{
+  "name": "icndy",
+  "version": "1.0.0",
+  "description": "Valid HTML, BEM, flexible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Halyna",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "crlab-gulp-combine-media-queries": "^1.0.0",
+    "debug": "file:debug",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1"
+  },
+  "dependencies": {}
+}

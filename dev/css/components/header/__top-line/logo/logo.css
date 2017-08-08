@@ -1,0 +1,12 @@
+.logo  {
+    width: 13.18%;
+    padding-left: 5.88%;
+}
+.logo img {
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .logo  {
+    padding-left: 0;
+    }
+}

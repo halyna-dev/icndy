@@ -1,0 +1,72 @@
+.header__text {
+    box-sizing: border-box;
+}
+
+.header__text-big  {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #ffffff;
+    letter-spacing: 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase; 
+}
+
+.header__text-small  {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f84545;
+    letter-spacing: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+/*for-big-desktop-up*/
+@media only screen and (min-width: 1800px) {
+    .header__text-big  {
+      font-size: 45px;  
+      letter-spacing: 20px;    
+    }
+    .header__text-small  {
+      font-size: 38px;  
+      letter-spacing: 20px;  
+    }
+}
+/*for-desktop-up*/
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+    .header__text-big  {
+      font-size: 2.5vw;  
+      letter-spacing: 20px;    
+    }
+    .header__text-small  {
+      font-size: 2.2vw;  
+      letter-spacing: 20px;  
+    }
+}
+/*for-tablet-up*/
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    .header__text-big  {
+      font-size: 2.7vw;  
+      letter-spacing: 16px;    
+    }
+    .header__text-small  {
+      font-size: 1.5vw;  
+      letter-spacing: 16px;  
+    }
+}
+/*for-tablet-portrait-up*/
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .header__text-big  {
+      font-size: 1.8vw;  
+      letter-spacing: 16px;    
+    }
+    .header__text-small  {
+      font-size: 1.4vw;  
+      letter-spacing: 16px;  
+    }
+}
+/*for-phone-only*/
+@media only screen and (max-width: 600px) {
+    .header__text  {
+      display: none;
+    }   
+}

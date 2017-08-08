@@ -1,0 +1,20 @@
+/*for-big-desktop-up*/
+@media only screen and (min-width: 1800px) {
+    
+}
+/*for-desktop-up*/
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+    
+}
+/*for-tablet-landscape-up*/
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    
+}
+/*for-tablet-portrait-up*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    
+}
+/*for-phone-only*/
+@media only screen and (max-width: 600px) {
+    
+}

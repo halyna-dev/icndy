@@ -1,0 +1,20 @@
+@import "logo/logo.css";
+@import "menu/menu.css";
+
+.header__top-line {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2.35%;
+}
+@media only screen and (max-width: 600px) {
+    .header__top-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    }
+}

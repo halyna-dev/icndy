@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Proxima Nova";    
+    font-weight: normal;
+    font-style: normal;
+    
+    src: url("../../font/ProximaNova-Light/ProximaNova-Light.ttf"), 
+        url("../../font/ProximaNova-Light/ProximaNova-Light.eot"), 
+        url("../../font/ProximaNova-Light/ProximaNova-Light.svg"), 
+         url("../../font/ProximaNova-Light/ProximaNova-Light.woff");
+
+}
+
+@font-face {
+    font-family: "Proxima Nova";    
+    font-weight: bold;
+    font-style: normal;
+    
+    src: url("../../font/ProximaNova-Semibold/ProximaNova-Semibold.ttf")
+        url("../../font/ProximaNova-Semibold/ProximaNova-Semibold.eot")
+        url("../../font/ProximaNova-Semibold/ProximaNova-Semibold.svg")
+         url("../../font/ProximaNova-Semibold/ProximaNova-Semibold.woff");
+}
+
+@font-face {
+    font-family: "Icon";    
+    font-weight: normal;
+    font-style: normal;
+    
+    src: url(../../font/icon/icomoon.ttf),
+         url(../../font/icon/icomoon.eot),
+         url(../../font/icon/icomoon.svg),
+         url(../../font/icon/icomoon.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html  {
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif; 
+    line-height: 1.75;   
+}
+
+ul li {
+    list-style: none; 
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
